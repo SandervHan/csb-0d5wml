@@ -7,27 +7,17 @@
   --dl-white: #ffffff;
 }
 .button {
-  color: var(--dl-blue-black);
-  display: inline-block;
   padding: 0.5rem 1rem;
   border-color: var(--dl-blue-black);
   border-width: 1px;
   border-radius: 4px;
-  background-color: var(--dl-white);
+  background-color: var(--dl-blue-black);
+  z-index: 1;
 }
 .input {
   color: var(--dl-blue-black);
   cursor: auto;
   padding: 0.5rem 1rem;
-  border-color: var(--dl-blue-black);
-  border-width: 1px;
-  border-radius: 4px;
-  background-color: var(--dl-white);
-}
-.textarea {
-  color: var(--dl-blue-black);
-  cursor: auto;
-  padding: 0.5rem;
   border-color: var(--dl-blue-black);
   border-width: 1px;
   border-radius: 4px;
@@ -40,12 +30,6 @@
   padding: 0px 0px 0px 1.5rem;
   list-style-type: none;
   list-style-position: outside;
-}
-.list-item {
-  display: list-item;
-}
-.teleport-show {
-  display: flex !important;
 }
 .content {
   font-size: 16px;
