@@ -41,11 +41,7 @@ li.filter:not(:last-child) {
 */
 .content-grid {
   display: grid;
+  justify-content: center;
   grid-template-columns: 3, 1fr;
-
-  background: linear-gradient(
-    180deg,
-    var(--dl-blue-black),
-    rgb(111, 127, 139) 100%
-  );
+  grid-template-rows: 3, 1fr;
 }

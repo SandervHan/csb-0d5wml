@@ -42,7 +42,6 @@ h6 {
 nav {
   display: flex;
   align-items: center;
-  overflow: hidden;
 }
 .nav-b {
   display: inline-flex;

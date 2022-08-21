@@ -91,9 +91,6 @@ a {
 }
 
 @media screen and (max-width: 696px) {
-  * {
-    transition: ease 1s;
-  }
   .games-container {
     align-items: center;
   }

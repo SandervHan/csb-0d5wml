@@ -1,6 +1,3 @@
-body {
-  background: rgb(30, 30, 40);
-}
 .contact-wrapper {
   text-align: center;
   color: white;
@@ -11,7 +8,7 @@ form {
   margin: 50px auto;
 }
 
-.feedback-input {
+.contact-box {
   color: white;
   font-family: "Segoe UI", Arial, sans-serif;
   font-weight: 500;
@@ -28,7 +25,7 @@ form {
   outline: 0;
 }
 
-.feedback-input:focus {
+.contact-box:focus {
   border: 2px solid var(--dl-orange);
 }
 
@@ -58,10 +55,14 @@ textarea {
 }
 @media screen and (max-width: 696px) {
   [type="submit"] {
-    margin: 5px;
+    margin: 10px;
     width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .feedback-input {
     width: 90%;
+    padding: 20px;
+    margin-bottom: 20px;
   }
 }
