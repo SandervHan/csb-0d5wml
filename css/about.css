@@ -1,0 +1,37 @@
+.content-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  margin-top: 250px;
+}
+.info {
+  min-width: calc(30vw - 50px);
+}
+.ia {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.svg-path {
+  fill: rgba(255, 102, 0, 0.137);
+  transition: 0.3s;
+}
+.svg-path:hover {
+  fill: #403e7e;
+}
+
+.about {
+  min-width: calc(50vw - 50px);
+  height: 100%
+  background: linear-gradient(90deg, #282746 0%, #a4bccf00 100%);
+  border: 1px var(--dl-orange);
+  color: white;
+  text-align: center;
+  align-content: center;
+}
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 20px;
+
+}

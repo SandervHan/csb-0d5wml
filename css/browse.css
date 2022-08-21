@@ -1,0 +1,51 @@
+.block {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  position: fixed;
+  width: 25%;
+  height: calc(100vh - 30px);
+  background-color: var(--dl-blue-black);
+  text-align: center;
+  color: white;
+}
+.filter-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.filter {
+  background-color: rgba(255, 123, 0, 0.445);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  margin: 5px;
+  border: var(--dl-orange);
+  border-radius: 1px;
+}
+.filter:hover {
+  background-color: var(--dl-orange);
+}
+.filter:active {
+  background-color: rgb(184, 133, 39);
+  color: rgb(187, 187, 187);
+}
+/*
+li.filter:not(:last-child) {
+  margin: 30px;
+}
+*/
+.content-grid {
+  display: grid;
+  grid-template-columns: 3, 1fr;
+
+  background: linear-gradient(
+    180deg,
+    var(--dl-blue-black),
+    rgb(111, 127, 139) 100%
+  );
+}

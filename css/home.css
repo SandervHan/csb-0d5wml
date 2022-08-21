@@ -1,0 +1,110 @@
+button {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  text-transform: none;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/* mess */
+
+.games-text {
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.home-header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  max-width: 100%;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 0px;
+}
+.header-image {
+  object-fit: scale-down;
+  align-items: center;
+  max-width: 50%;
+  height: 240px;
+}
+.home-banner {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  padding-top: var(32px);
+  padding-left: var(24px);
+  padding-right: var(24px);
+  padding-bottom: var(32px);
+  justify-content: center;
+  background-image: linear-gradient(#1b203d, #686680);
+}
+.home-text {
+  position: relative;
+  color: #ffffff;
+  font-size: 3rem;
+  font-style: normal;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200;
+  margin-bottom: var(24px);
+  padding-bottom: 20px;
+}
+.games-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  grid-gap: 20px;
+  justify-items: center;
+  justify-content: center;
+}
+.games-grid > img {
+  max-width: 100%;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+.home-button {
+  margin-top: 16px;
+  margin-bottom: 50px;
+  transition: 0.3s;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #ff6838;
+}
+.home-button:hover {
+  background-color: #ffe6e0;
+}
+.home-text1 {
+  font-family: PT Sans;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+@media screen and (max-width: 696px) {
+  * {
+    transition: ease 1s;
+  }
+  .games-container {
+    align-items: center;
+  }
+  .games-container {
+    flex-direction: column;
+  }
+  .home-features {
+    align-items: center;
+  }
+  .home-games:hover {
+    width: 292px;
+    height: 335px;
+  }
+}
